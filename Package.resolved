@@ -1,5 +1,5 @@
 {
-  "originHash" : "88468509afbd46d084855827817999861170c4d42ae1fa6fb689f0a0a19a69af",
+  "originHash" : "39b3f4304a6b8fbed9d3b0153d101c371f15ff42f933882054b99c0bf98a27af",
   "pins" : [
     {
       "identity" : "swift-concurrency-extras",
@@ -32,7 +32,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/untitled-in-brackets/swift-issue-reporting",
       "state" : {
-        "revision" : "445602fe40f8f3cdbd78bcbe2bd939426711b756"
+        "revision" : "ddf7cf956f33feea8ec6bc7af5e33c86eb060c66"
       }
     }
   ],

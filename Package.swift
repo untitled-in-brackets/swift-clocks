@@ -27,7 +27,7 @@ let package = Package(
     ),
     .package(
       url: "https://github.com/untitled-in-brackets/swift-issue-reporting",
-      revision: "445602fe40f8f3cdbd78bcbe2bd939426711b756"
+      revision: "ddf7cf956f33feea8ec6bc7af5e33c86eb060c66"
     ),
   ],
   targets: [
