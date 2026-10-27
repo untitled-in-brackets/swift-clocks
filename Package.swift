@@ -21,8 +21,14 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
-    .package(url: "https://github.com/pointfreeco/swift-concurrency-extras", from: "1.0.0"),
-    .package(url: "https://github.com/pointfreeco/swift-issue-reporting", from: "2.1.0"),
+    .package(
+      url: "https://github.com/untitled-in-brackets/swift-concurrency-extras",
+      revision: "c73eb801949f38c2026cca8014b76914e6a47092"
+    ),
+    .package(
+      url: "https://github.com/untitled-in-brackets/swift-issue-reporting",
+      revision: "445602fe40f8f3cdbd78bcbe2bd939426711b756"
+    ),
   ],
   targets: [
     .target(

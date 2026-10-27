@@ -1,6 +1,5 @@
 #if (canImport(RegexBuilder) || !os(macOS) && !targetEnvironment(macCatalyst))
   import ConcurrencyExtras
-  import Foundation
 
   /// A clock that does not suspend when sleeping.
   ///
@@ -135,7 +134,7 @@
 
     public private(set) var now: Instant
     public private(set) var minimumResolution: Duration = .zero
-    private let lock = NSLock()
+    private let lock = Lock()
 
     public init(now: Instant = .init()) {
       self.now = now

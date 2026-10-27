@@ -1,6 +1,5 @@
 #if (canImport(RegexBuilder) || !os(macOS) && !targetEnvironment(macCatalyst))
   import ConcurrencyExtras
-  import Foundation
   import IssueReporting
 
   /// A clock that causes an XCTest failure when any of its endpoints are invoked.

@@ -1,6 +1,10 @@
 #if (canImport(RegexBuilder) || !os(macOS) && !targetEnvironment(macCatalyst))
   import ConcurrencyExtras
-  import Foundation
+  #if canImport(FoundationEssentials)
+    import FoundationEssentials
+  #else
+    import Foundation
+  #endif
   import IssueReporting
 
   /// A clock whose time can be controlled in a deterministic manner.
@@ -88,7 +92,7 @@
     public var minimumResolution: Duration = .zero
     public private(set) var now: Instant
 
-    private let lock = NSRecursiveLock()
+    private let lock = RecursiveLock()
     private var suspensions:
       [(
         id: UUID,

@@ -1,13 +1,12 @@
 {
-  "originHash" : "7dea21d8cce7027c9dcef7b962be55bc163c79be3e43fefa51d201d8d6dce177",
+  "originHash" : "88468509afbd46d084855827817999861170c4d42ae1fa6fb689f0a0a19a69af",
   "pins" : [
     {
       "identity" : "swift-concurrency-extras",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/swift-concurrency-extras",
+      "location" : "https://github.com/untitled-in-brackets/swift-concurrency-extras",
       "state" : {
-        "revision" : "a90e2e40a7a840a853dd29e57cbef5dbb72c9d5b",
-        "version" : "1.4.0"
+        "revision" : "c73eb801949f38c2026cca8014b76914e6a47092"
       }
     },
     {
@@ -31,10 +30,9 @@
     {
       "identity" : "swift-issue-reporting",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/swift-issue-reporting",
+      "location" : "https://github.com/untitled-in-brackets/swift-issue-reporting",
       "state" : {
-        "revision" : "71c7c9a761d1ca6ed4ccb6ced040fe1c1a39e8e7",
-        "version" : "2.1.0"
+        "revision" : "445602fe40f8f3cdbd78bcbe2bd939426711b756"
       }
     }
   ],
