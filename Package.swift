@@ -19,15 +19,21 @@ let package = Package(
       targets: ["Clocks"]
     )
   ],
+  traits: [
+    "Foundation",
+    .default(enabledTraits: ["Foundation"]),
+  ],
   dependencies: [
     .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
     .package(
       url: "https://github.com/untitled-in-brackets/swift-concurrency-extras",
-      revision: "c73eb801949f38c2026cca8014b76914e6a47092"
+      revision: "c73eb801949f38c2026cca8014b76914e6a47092",
+      traits: [.trait(name: "Foundation", condition: .when(traits: ["Foundation"]))]
     ),
     .package(
       url: "https://github.com/untitled-in-brackets/swift-issue-reporting",
-      revision: "ddf7cf956f33feea8ec6bc7af5e33c86eb060c66"
+      revision: "ddf7cf956f33feea8ec6bc7af5e33c86eb060c66",
+      traits: [.trait(name: "Foundation", condition: .when(traits: ["Foundation"]))]
     ),
   ],
   targets: [
